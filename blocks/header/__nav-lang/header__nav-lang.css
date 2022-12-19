@@ -1,4 +1,5 @@
 .header__nav-lang {
-  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
 }
 

@@ -6,3 +6,8 @@
   padding: 0;
 }
 
+@media screen and (max-width: 320px) {
+  .footer__list-links {
+    flex-direction: column;
+  }
+}

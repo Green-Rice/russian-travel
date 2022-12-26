@@ -3,6 +3,7 @@
   margin: 0 auto;
   background-color: #2a2c2f;
   font-family: 'Inter';
+  justify-content: center;
 }
 
 @media  screen and ( max-width: 1024px){
@@ -17,7 +18,7 @@
   }
 }
 
-@media  screen and ( max-width: 320px){
+@media  screen and ( max-width: 568px){
   .page {
     max-width: 320px;
   }

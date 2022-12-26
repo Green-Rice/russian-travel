@@ -8,14 +8,14 @@
   color: #FFFFFF;
   display: inline-block;
   align-self: flex-end;
-
+  text-decoration: none;
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 560px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

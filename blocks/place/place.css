@@ -7,9 +7,7 @@
   "image paragraph";
   grid-row-gap: 48px;
   grid-column-gap: 40px;
-  margin: 0 auto;
-  margin-bottom: 80px;
-
+  margin: 0 auto 80px;
 }
 
 .place:last-child {
@@ -31,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 568px) {
   .place {
       max-width: 320px;
       grid-template-columns: 1fr;
